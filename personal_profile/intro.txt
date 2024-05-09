@@ -1,0 +1,11 @@
+this is landing page for personal profile
+personal profile includes following
+1. Photo
+2. Name
+3. Address
+4. phone number
+5. branch
+6. total poems (link to poem list page)
+7. Date of birth
+8. published books
+9. other details

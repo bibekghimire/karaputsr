@@ -1,0 +1,37 @@
+.menuBar{
+    background-color: rgba(135, 245, 212, 0.644);
+    width:100%;
+    height:auto;
+    position: sticky;
+    top:0;
+}
+.menuBar .menuLists a{
+    text-decoration: none;
+    color: black;
+    display:block;
+    padding: 10px;
+}
+.menuBar .menuLists li{
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+
+    margin:0px;
+    padding:0px;
+}
+
+.menuBar .menuLists li a.active{
+    background-color: blueviolet;
+    color:white;
+}
+
+.menuBar .menuLists{
+    text-align: center;
+    padding-left: 25px;
+    
+}
+
+.menuBar .menuLists li:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(15, 13, 13);
+}

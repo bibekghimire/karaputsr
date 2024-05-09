@@ -1,0 +1,96 @@
+
+.title-bar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    width:99%;
+    height:100px;
+    background-color: rgb(27, 134, 228);
+
+}
+
+.title-bar .MainLogo img{
+    height:95px;
+}
+
+.title-bar .company-detail *{
+    padding-left: 20px;
+    margin:0;
+
+}
+.title-bar .company-detail{
+    
+    flex-grow: 2;
+    height:100%;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+#title-text{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: flex-start;
+
+    
+}
+#title-address{
+    color:chartreuse;
+}
+
+.ProfileIcon{
+    /* display:flex;
+    align-items: flex-start; */
+    cursor:pointer;
+
+
+}
+.ProfileIcon img{
+    position:relative;
+    display: inline-block;
+
+    height:60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ProfileIcon:hover {
+
+    & img{
+        border: 2px solid white;
+
+    }
+    & .ProfileMenu{
+        display: block;
+    }
+background-color: none;
+        
+    
+}
+
+.ProfileMenu{
+    display:none;
+    position:absolute;
+    right:40px;
+    top:70px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.ProfileMenu a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration:none;
+    display:block;
+}
+
+.ProfileIcon .ProfileMenu a:hover{
+    background-color: #f1f1f1;
+
+}
