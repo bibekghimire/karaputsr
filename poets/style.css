@@ -1,0 +1,14 @@
+.poet-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+
+}
+
+.poet-container .poet-card{
+    width:300px;
+    height:100px;
+    border: 2px solid black;
+}
