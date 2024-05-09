@@ -5,3 +5,4 @@ it has 3 main prts
 3. body:
 the main part of the project that contains all the contents which is further divided into 3 subparts, left column, central body, right column 
 
+friday 5:00 AM
